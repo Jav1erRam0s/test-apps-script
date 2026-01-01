@@ -1,0 +1,86 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f4f7f6; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 50px; 
+}
+
+h1 { color: #333; }
+
+.panel { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    min-width: 350px; /* Un poco más ancho para que luzcan los botones */
+}
+
+.fila-objeto { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 15px; 
+    border-bottom: 1px solid #eee; 
+    gap: 20px;
+}
+
+.fila-objeto:last-child { border-bottom: none; }
+
+.nombre { font-weight: bold; color: #555; font-size: 1.1em; }
+
+.estado-container { display: flex; align-items: center; }
+
+/* Estilo base del botón (la cajita) */
+.btn-accion { 
+    padding: 8px 16px; 
+    border: none; 
+    border-radius: 8px; 
+    font-weight: 600;
+    cursor: pointer; 
+    transition: 0.3s;
+    color: #212529; /* Texto casi negro para mejor lectura */
+    min-width: 120px;
+    text-align: center;
+}
+
+/* Colores claritos por estado (estilo pastel) */
+.disponible { 
+    background-color: #d4edda; 
+    border: 1px solid #c3e6cb; 
+}
+.no-disponible { 
+    background-color: #f8d7da; 
+    border: 1px solid #f5c6cb; 
+}
+.incompleto { 
+    background-color: #fff3cd; 
+    border: 1px solid #ffeeba; 
+}
+.desconocido { 
+    background-color: #e2e3e5; 
+    border: 1px solid #d6d8db; 
+}
+
+/* Efecto hover sutil */
+.btn-accion:hover { 
+    filter: brightness(0.95);
+    transform: translateY(-1px);
+}
+
+.titulo-seccion {
+    width: 100%;
+    margin: 30px 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    color: #222;
+    font-size: 1.8em;
+    text-align: left;
+    font-weight: 800;
+}
+
+/* Opcional: un poco de espacio extra para el primer título */
+.titulo-seccion:first-child {
+    margin-top: 10px;
+}
