@@ -17,3 +17,22 @@ La información se actualiza automáticamente y **puede modificarse directamente
 ### 🎯 Objetivo
 
 Facilitar el **control, monitoreo y gestión** de morrales
+
+- ------------------------------------------------------------------------------
+
+APPS SCRIPT
+
+
+Google Sheets
+
+MI INVENTARIO
+https://docs.google.com/spreadsheets/d/18wi9tMsuE-vjOo--FCJFQUtifgLxcwFGZ-VKvvO99vM/edit?gid=1411882306#gid=1411882306
+
+- ---
+
+INVENTARIO
+https://docs.google.com/spreadsheets/d/1X2IUvOGHRFWh_ws4pAiThTlfetQgoKTbsEqooVhsRDg/edit?usp=drive_web&ouid=103305096685566562067
+
+https://github.com/daumian
+https://daumian.github.io/BBDD_Tiempo_Real/
+https://docs.google.com/spreadsheets/u/0/d/1X2IUvOGHRFWh_ws4pAiThTlfetQgoKTbsEqooVhsRDg/htmlview

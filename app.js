@@ -1,9 +1,9 @@
 // Configuración
-const SHEET_ID = '1X2IUvOGHRFWh_ws4pAiThTlfetQgoKTbsEqooVhsRDg';
+const SHEET_ID = '18wi9tMsuE-vjOo--FCJFQUtifgLxcwFGZ-VKvvO99vM';
 const URL_LECTURA = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json`;
 
 // REEMPLAZA ESTO CON TU URL DE "EJECUTAR" (LA QUE TERMINA EN /exec)
-const URL_SCRIPT_GOOGLE = 'https://script.google.com/macros/s/AKfycbwTeGXfvGHhgPVD3neOkZ8Sh6sTchA5MeJPE19_6k6XCO_itBZLxg0fKV9N46PG3lg/exec'; 
+const URL_SCRIPT_GOOGLE = 'https://script.google.com/macros/s/AKfycbw8JxobKOMlDbIQuD55xdYXTWCcGh0apyj6nnQq8pDIGCXpBR4b2b4a7eq72wk8uD2ZxQ/exec'; 
 
 const CICLO_ESTADOS = ['Disponible', 'No Disponible', 'Incompleto'];
 
